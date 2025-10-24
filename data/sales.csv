@@ -1,0 +1,4 @@
+model,typ_transakcji,wartosc,data,auto_wymienione,komentarz,img_path
+Declasse Asea,Zakup,600.0,10.10.2025,,,data/img/Asea.jpg
+Declasse Asea,Zakup,500.0,10.10.2025,,,data/img/Asea.jpg
+Declasse Asea,Sprzedaż,800.0,10.10.2025,,,data/img/Asea.jpg
