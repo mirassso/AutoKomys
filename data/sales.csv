@@ -2,4 +2,9 @@ model,typ_transakcji,wartosc,data,auto_wymienione,komentarz,img_path
 Declasse Asea,Zakup,600.0,10.10.2025,,,data/img/Asea.jpg
 Declasse Asea,Zakup,500.0,10.10.2025,,,data/img/Asea.jpg
 Declasse Asea,Sprzedaż,800.0,10.10.2025,,,data/img/Asea.jpg
-Western Zombie Bobber,Zakup,350.0,10.10.2025,,,data/img/ZombieBobber.jpg
+Western Wolfsbane,Zakup,350.0,10.10.2025,,,data/img/Wolfsbane.jpg
+Western Wolfsbane,Sprzedaż,1500.0,11.10.2025,,,data/img/Wolfsbane.jpg
+Declasse Asea,Zakup,500.0,11.10.2025,,,data/img/Asea.jpg
+Declasse Asea,Sprzedaż,2500.0,11.10.2025,,,data/img/Asea.jpg
+Blista Compact,Zakup,2000.0,11.10.2025,,"Transakcja z komisem i klientem. Sprzedano motocykl z komisu klientowi za $6000 i Bliste Compact. Zapłacono $2000 komisowi, a Blista trafiła do AutoKomysu",data/img/Blista_Compact.jpg
+Declasse Asea,Zakup,1000.0,11.10.2025,,,data/img/Asea.jpg
