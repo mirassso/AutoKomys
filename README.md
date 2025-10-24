@@ -73,19 +73,31 @@ Aplikacja otworzy się w przeglądarce (np. `http://localhost:8501`).
 ## 📝 Struktura aplikacji
 
 ```
-app.py                 # Główny plik aplikacji
-tabs/                  # Zakładki aplikacji
-  home.py              # Strona główna
-  search.py            # Wyszukiwanie samochodów
-  sales_data.py        # Edytowalna tabela sprzedaży
-  add_data.py          # Dodawanie transakcji
-data/
-  sales.csv            # Plik z danymi o transakcjach
-  img/                 # Zdjęcia samochodów
-img/
-  home.jpg             # Obrazek nagłówka strony głównej
-requirements.txt       # Lista wymaganych bibliotek
-start_app.bat          # Plik do uruchomienia aplikacji jednym kliknięciem
+AutoKomys/
+│
+├── app.py                     # Główny plik aplikacji Streamlit
+├── run_app.py                 # Skrypt uruchamiający aplikację (wersja .exe)
+├── requirements.txt           # Lista wymaganych bibliotek
+├── README.md                  # Instrukcja uruchamiania aplikacji
+│
+├── tabs/                      # Zakładki aplikacji
+│   ├── home.py
+│   ├── search.py
+│   ├── sales_data.py
+│   └── add_data.py
+│
+├── data/
+│   ├── sales.csv              # Dane o transakcjach
+│   └── img/                   # Zdjęcia samochodów
+│
+├── img/
+│   └── home.jpg               # Obrazek powitalny aplikacji
+│
+├── build/                     # 🔧 Pliki tymczasowe PyInstaller
+├── dist/                      # 🚀 Gotowa wersja aplikacji (.exe)
+├── run_app.spec               # ⚙️ Konfiguracja kompilacji PyInstaller
+└── start_app.bak              # 🗃️ Kopia zapasowa skryptu uruchamiającego
+
 ```
 
 ---
