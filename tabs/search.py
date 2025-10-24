@@ -93,5 +93,5 @@ def run():
             if pd.notna(row["auto_wymienione"]) and row["auto_wymienione"]:
                 st.write(f"Auto wymienione: {row['auto_wymienione']}")
             if pd.notna(row["komentarz"]) and row["komentarz"]:
-                st.write(f"Komentarz: {row['komentarz']}")
+                st.text(f"Komentarz: {row['komentarz']}")
         st.markdown("---")
