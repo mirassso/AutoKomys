@@ -9,21 +9,21 @@ Aplikacja webowa do zarządzania sprzedażą i zakupami samochodów w komisie. P
 
 ## 👀 Wygląd aplikacji
 
-###Strona główna
+### Strona główna
 
 <img width="791" height="748" alt="image" src="https://github.com/user-attachments/assets/8a6651ac-ddab-45c8-90a5-1bb18b99ca8c" />
 
-###Wyszukiwanie
+### Wyszukiwanie
 
 <img width="620" height="875" alt="image" src="https://github.com/user-attachments/assets/a5ed449f-0264-461f-b574-12f30aadcbc6" />
 
 
-###Dane sprzedażowe
+### Dane sprzedażowe
 
 <img width="671" height="659" alt="image" src="https://github.com/user-attachments/assets/05510f9c-ee19-4129-8fd2-954622cd3672" />
 
 
-###Dodawanie transakcji
+### Dodawanie transakcji
 
 <img width="659" height="754" alt="image" src="https://github.com/user-attachments/assets/6246ba24-b785-449c-b154-f33cf2e8bfad" />
 
