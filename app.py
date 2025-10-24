@@ -8,18 +8,24 @@ st.set_page_config(
     layout="centered"
 )
 
-# Tytuł
-st.title("AutoKomys")
+st.title("🚗 AutoKomys - Charlie Espresso")
 
-tabs = ["Strona główna", "Wyszukiwanie", "Dane sprzedażowe", "Dodawanie transakcji"]
-selected_tab = st.radio("Wybierz zakładkę:", tabs, horizontal=True)
+# --- Zakładki ---
+tab1, tab2, tab3, tab4 = st.tabs([
+    "🏠 Strona główna",
+    "🔍 Wyszukiwanie",
+    "📊 Dane sprzedażowe",
+    "➕ Dodawanie transakcji"
+])
 
-# Wywołanie zakładki
-if selected_tab == "Strona główna":
+with tab1:
     home.run()
-elif selected_tab == "Wyszukiwanie":
+
+with tab2:
     search.run()
-elif selected_tab == "Dane sprzedażowe":
+
+with tab3:
     sales_data.run()
-elif selected_tab == "Dodawanie transakcji":
+
+with tab4:
     add_data.run()
